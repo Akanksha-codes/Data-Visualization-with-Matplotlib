@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Read the data from file using read_csv
-climate_change = pd.read_csv('climate_change.csv', parse_dates=True, index_col="date")
+climate_change = pd.read_csv('climate_change.csv', parse_dates=False, index_col="date")
 
 #----------Plot time-series data----------
 import matplotlib.pyplot as plt
